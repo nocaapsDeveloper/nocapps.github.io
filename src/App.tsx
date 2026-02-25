@@ -9,7 +9,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => (
   <HelmetProvider>
-    <BrowserRouter>
+    <BrowserRouter basename="/nocapps.github.io">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Index />} />

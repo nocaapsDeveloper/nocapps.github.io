@@ -13,6 +13,26 @@
   </head>
 
   <body>
+    <!-- SPA redirect: restore path encoded by 404.html -->
+    <script>
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            });
+          window.history.replaceState(
+            null,
+            null,
+            decoded.splice(0, 1)[0].slice(1) +
+              (decoded.length ? "?" + decoded.join("&") : "") +
+              l.hash
+          );
+        }
+      })(window.location);
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
