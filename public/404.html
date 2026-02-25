@@ -6,8 +6,8 @@
     <script>
       // SPA redirect for GitHub Pages: encodes the current path into a query
       // string and redirects to index.html, which then restores the path.
-      // segmentCount = 0 for root deployment (no base path segment).
-      var segmentCount = 0;
+      // segmentCount = 1 for project page deployment (/nocapps.github.io/).
+      var segmentCount = 1;
       var l = window.location;
       l.replace(
         l.protocol +
