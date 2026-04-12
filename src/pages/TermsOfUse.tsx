@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import PageLayout from "@/components/PageLayout";
 
 const TERMS_TEXT = `1. INTRODUCTION
-These Terms of Use and End User License Agreement (collectively, the "Agreement") constitute a legally binding agreement between you ("you", "your" or "user") and nocapps JDG, a sole trader registered in Poland (referred to as the "Company", "we", "us", or "our").
+These Terms of Use and End User License Agreement (collectively, the "Agreement") constitute a legally binding agreement between you ("you", "your" or "user") and Dzmitry Kazachok, a sole trader registered in Poland (NIP: 7011127802, REGON: 524367692), operating under the brand name nocapps (referred to as the "Company", "we", "us", or "our").
 
 This Agreement governs your access to and use of the Company's mobile applications (each, an "App"), and any related services, websites, or features (collectively, the "Services"). By downloading, installing, or using any of our Apps, you acknowledge that you have read, understood, and agreed to be bound by this Agreement. If you do not agree, you must not use the App and should delete it from your device.
 
@@ -332,10 +332,12 @@ Assignment. You may not assign your rights under these Terms without our prior w
 
 Force Majeure. We shall not be liable for any delay or failure to perform our obligations due to causes beyond our reasonable control, including natural disasters, war, internet outages, or governmental restrictions.
 
-22. CONTACT US
 If you have any questions about this Agreement, please contact us at:
 
-main@nocapps.art`;
+main@nocapps.art
+Dzmitry Kazachok, trading as nocapps
+ul. Sokołowska 9/452, 01-142 Warszawa, Poland
+NIP: 7011127802`;
 
 const TermsOfUse = () => {
   return (
@@ -350,7 +352,9 @@ const TermsOfUse = () => {
           <h1 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-2">
             Terms of Use
           </h1>
-          <p className="text-sm text-muted-foreground mb-10">Last Updated: 15 November 2025</p>
+          <p className="text-base font-bold text-foreground mb-8">
+            Last Updated: 12 April 2026
+          </p>
           <pre className="text-muted-foreground leading-relaxed whitespace-pre-wrap font-sans text-sm">
             {TERMS_TEXT}
           </pre>

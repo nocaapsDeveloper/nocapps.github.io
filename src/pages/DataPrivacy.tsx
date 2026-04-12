@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import PageLayout from "@/components/PageLayout";
 
 const PRIVACY_TEXT = `1. INTRODUCTION
-This Privacy Policy is a legal agreement between you ("you", "your" or "user") and nocapps JDG, a sole trader registered in Poland (referred to as the "Company", "we", "us", or "our").
+This Privacy Policy is a legal agreement between you ("you", "your" or "user") and Dzmitry Kazachok, a sole trader registered in Poland (NIP: 7011127802, REGON: 524367692), operating under the brand name nocapps (referred to as the "Company", "we", "us", or "our").
 
 This Policy applies to all mobile games, applications, websites, and related services provided by the Company (collectively, the "Services" or "games", "apps", "websites" for individual categories). It explains how we collect, use, share, and protect your personal data when you access or use our Services.
 
@@ -209,7 +209,10 @@ By continuing to use our Services after such updates, you acknowledge and accept
 13. CONTACT US
 If you have any questions or concerns about this Privacy Policy or how we handle your personal data, please contact us using the in-app support feature in our Services, which is the preferred method for a timely response. You may also contact our team at:
 
-main@nocapps.art`;
+main@nocapps.art
+Dzmitry Kazachok, trading as nocapps
+ul. Sokołowska 9/452, 01-142 Warszawa, Poland
+NIP: 7011127802`;
 
 const DataPrivacy = () => {
   return (
@@ -224,7 +227,9 @@ const DataPrivacy = () => {
           <h1 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-2">
             Privacy Policy
           </h1>
-          <p className="text-sm text-muted-foreground mb-10">Last Updated: 15 November 2025</p>
+          <p className="text-base font-bold text-foreground mb-8">
+            Last Updated: 12 April 2026
+          </p>
           <pre className="text-muted-foreground leading-relaxed whitespace-pre-wrap font-sans text-sm">
             {PRIVACY_TEXT}
           </pre>
