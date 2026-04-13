@@ -25,9 +25,9 @@ We may update or modify this Agreement from time to time at our sole discretion.
 Your continued use of the App after the effective date of any changes constitutes your acceptance of the updated Agreement. If you do not agree to the revised terms, you must stop using the App and delete it from your device.
 
 4. AGE RESTRICTIONS
-The App is intended for users who are at least 17 years old. By accessing, downloading, installing, or using the App, you confirm that you meet this minimum age requirement.
+The App is intended for users who are at least 18 years old. By accessing, downloading, installing, or using the App, you confirm that you meet this minimum age requirement.
 
-We do not knowingly permit the use of the App by individuals under the age of 17. If you are under 17, you are not permitted to use the App, and you must delete it from your device.
+We do not knowingly permit the use of the App by individuals under the age of 18. If you are under 18, you are not permitted to use the App, and you must delete it from your device.
 
 Parents and legal guardians are responsible for supervising their children's device use and ensuring they do not access the App.
 
