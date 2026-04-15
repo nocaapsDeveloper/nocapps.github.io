@@ -50,7 +50,6 @@ Our Services may also use similar technologies to support AI-powered features wh
 
 Please note that, while your browser settings may allow you to transmit a "Do Not Track" signal when you visit websites, our mobile Services are not configured to respond to "Do Not Track" signals received from browsers.
 
-We do not currently use third-party advertising networks in our apps.
 
 3. SOURCES OF DATA
 We collect personal information from a variety of sources, depending on how you interact with the Services. These sources may include:
@@ -76,6 +75,9 @@ When you contact us (e.g., via email or through in-app support), we use the info
 
 To analyze and improve our apps
 We use third-party analytics tools to better understand how users engage with our services, evaluate app performance, and guide product development. These tools may collect data like device identifiers and usage metrics. In jurisdictions where required, this processing is based on your consent; elsewhere, on our legitimate interest in improving user experience.
+
+To measure marketing performance and attribute installs
+We use third-party attribution tools to understand which channels and campaigns lead users to our Services, and to calculate metrics such as lifetime value and return on ad spend. This processing is based on our legitimate interest in evaluating and optimizing our marketing activities
 
 For purchase management
 We rely on third-party services to manage and validate purchases, handle subscriptions, and deliver entitlements such as premium access. This processing is necessary to fulfill our contractual obligations to you.
